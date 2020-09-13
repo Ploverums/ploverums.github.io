@@ -4,7 +4,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 50px;
-    color: white;
+    color: snow;
 
 }
 
@@ -20,7 +20,9 @@ body {
     font-style: normal;
     font-display: swap;
 }
-.hi{
-    stroke-dasharray: 1920;
-    stroke-dashoffset: 0;
+
+.square{
+    height:150px;
+    width:150px;
+    background-color: #916953;
 }
