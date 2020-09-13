@@ -1,10 +1,13 @@
 body {
-    background-color: rgb(36,36,36);
+    background-color: rgb(36, 36, 36);
     font-family: 'Power Green';
     font-weight: normal;
     font-style: normal;
     font-size: 50px;
+    color: white;
+
 }
+
 @font-face {
     font-family: 'Power Green';
     src: url('ploverums.github.io/PowerGreen.eot');
@@ -16,4 +19,8 @@ body {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+.hi{
+    stroke-dasharray: 1920;
+    stroke-dashoffset: 0;
 }
