@@ -21,8 +21,18 @@ body {
     font-display: swap;
 }
 
-.square{
-    height:150px;
-    width:150px;
+.square {
+    height: 150px;
+    width: 150px;
     background-color: #916953;
+}
+
+a {
+    text-decoration: none;
+    color: snow;
+}
+
+a:visited {
+    text-decoration: none;
+    color: snow;
 }
