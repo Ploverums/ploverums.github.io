@@ -4,14 +4,18 @@
 <head>
     <meta charset=UTF-8 />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <div class="wrapper">
+    <div class="smapper">
         <a href="index.html">
-            <div class="square"></div>
+            <div id="square2">
+            </div>
+            
+            
         </a>
     </div>
 </head>
 
 <body>
+    
 
     <h1>About Me
     </h1>
@@ -20,6 +24,19 @@
 
         Also screw dynamic web editors.
     </p>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '#square2',
+            duration: 2500,
+            translateX: -1700,
+            rotate: {
+                value: 360,
+                duration: 2500,
+                
 
+            },
+        });
 
+    </script>
 </body>
