@@ -26,11 +26,21 @@ body {
     width: 150px;
     background-color: #916953;
 }
+
 #square2 {
     height: 150px;
     width: 150px;
     background-color: #916953;
-    position: relative; left: 1700px;
+    position: relative;
+    left: 1700px;
+}
+
+#square3 {
+    height: 150px;
+    width: 150px;
+    background-color: #916953;
+    position: relative;
+    left: 1700px;
 }
 
 
@@ -43,7 +53,8 @@ a:visited {
     text-decoration: none;
     color: snow;
 }
-img{
+
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
