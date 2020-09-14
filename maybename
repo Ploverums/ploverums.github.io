@@ -1,33 +1,13 @@
-<!DOCTYPE html>
-<html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+              "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 
-<head>
-    <meta charset=UTF-8 />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
-
-<body>
-    <div class="wrapper">
-        <a href="about.html">
-            <div class="square">
-            </div>
-        </a>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
-    <script>
-        anime({
-            targets: '.square',
-            duration: 2500,
-            translateX: '1200%',
-            rotate: {
-                value: 360,
-                duration: 2500,
-
-            },
-        });
-    </script>
-        <svg id="name" width="100%" height="30vh" viewBox="0 0 1100 300">
-            <path stroke="white" stroke-width="3" fill="none" d="M 32.00,15.00
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="3.66667in" height="1in"
+     viewBox="0 0 1100 300">
+  <path id="Path"
+        fill="none" stroke="black" stroke-width="1"
+        d="M 32.00,15.00
            C 32.00,15.00 115.00,15.00 115.00,15.00
              115.00,15.00 115.00,35.67 115.00,35.67
              115.00,35.67 52.70,35.67 52.70,35.67
@@ -200,29 +180,5 @@
            C 963.00,180.33 1025.00,180.33 1025.00,180.33
              1025.00,180.33 1025.00,201.00 1025.00,201.00
              1025.00,201.00 963.00,201.00 963.00,201.00
-             963.00,201.00 963.00,180.33 963.00,180.33 Z"></path>
-        </svg>
-    <script>
-        anime({
-            targets: '#name path',
-            strokeDashoffset: [anime.setDashoffset, 0],
-            easing: 'easeInOutQuart',
-            duration: 7500,
-            delay: function(el, i) {
-                return i * 250
-            },
-            direction: 'alternate',
-            loop: true
-        });
-    </script>
-    <p>
-        <center>The web developer that gets nothing done</center>
-    </p>
-
-    <p style="font-size: 30px;">
-        <center>Below are some of my projects I'm still working on, so just ignore them for now. Click the box for an about me page.</center>
-    </p>
-    <a href="snake.html">
-        <img src="snake.png" class="center">
-    </a>
-</body></html>
+             963.00,201.00 963.00,180.33 963.00,180.33 Z" />
+</svg>
