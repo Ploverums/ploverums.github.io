@@ -60,3 +60,8 @@ img {
     margin-right: auto;
     width: 10%;
 }
+
+#name path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
