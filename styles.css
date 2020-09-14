@@ -31,6 +31,7 @@ body {
 #square2 {
     height: 15vh;
     width: 15vh;
+    left: 90%;
     background-color: #916953;
     position: relative;
 
@@ -71,4 +72,25 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.grid {
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    background-color: #916953;
+    z-index: 2;
+    left: 0px;
+    right: 0xpx;
+}
+
+.watainer {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    z-index: 2;
+}
+
+#snake path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
 }
