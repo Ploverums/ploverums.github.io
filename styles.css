@@ -4,7 +4,7 @@ body {
     font-weight: normal;
     font-style: normal;
     font-size: 50px;
-    color: snow;
+    color: white;
     line-height: 7.5vh
 
 }
@@ -91,6 +91,11 @@ img {
 }
 
 #snake path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
+
+#yarmi path {
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
 }
