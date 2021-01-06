@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <div class="smapper">
         <a href="index.html">
-            <div id="square2">
+            <div id="square">
             </div>
 
 
@@ -15,6 +15,25 @@
 </head>
 
 <body>
+        <div class="wrapper">
+        <a href="index.html">
+            <div class="square">
+            </div>
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+    <script>
+        anime({
+            targets: '.square',
+            duration: 2500,
+            translateX: '1200%',
+            rotate: {
+                value: 360,
+                duration: 2500,
+
+            },
+        });
+    </script>
     <h1>
         <center>Halloween Arduino Project (pimp my pumpkin)</center>
     </h1>
