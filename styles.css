@@ -6,7 +6,6 @@ body {
     font-size: 50px;
     color: white;
     line-height: 7.5vh
-
 }
 
 @font-face {
@@ -20,6 +19,13 @@ body {
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nikkyou Sans';
+    src: url('ploverums.github.io/NikkyouSans.ttf') format('truetype') url('ploverums.github.io/nikkyousans.woff') format('woff') url('ploverums.github.io/nikkyousans.woff2') format('woff2') font-weight: normal;
+    font-style: normal;
+    color: white;
 }
 
 .square {

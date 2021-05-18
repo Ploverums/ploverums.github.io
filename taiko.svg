@@ -2,20 +2,22 @@
 <!-- Generator: Adobe Illustrator 25.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+    
 <style type="text/css">
-	.st0{font-family:'Nikkyou-Sans';}
-	.st1{font-size:15.1785px;}
-	.st2{fill:none;}
-	.st3{font-size:75px;}
-	.st4{letter-spacing:14.98;}
-	.st5{font-size:24px;}
-	.st6{letter-spacing:28.28;}
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st1{font-family:'Nikkyou Sans';}
+	.st2{font-size:15.1785px;}
+	.st3{fill:none;}
+	.st4{font-size:75px;}
+	.st5{letter-spacing:14.98;}
+	.st6{font-size:24px;}
+	.st7{letter-spacing:28.28;}
 </style>
-<text transform="matrix(1 0 0 1 381.8908 160.1116)"><tspan x="0" y="0" class="st0 st1">ノア スミス</tspan><tspan x="0" y="18.21" class="st0 st1">パディ コスティガン</tspan><tspan x="0" y="36.43" class="st0 st1">エリック ブロンバーグ</tspan></text>
-<rect x="149.46" y="76.89" class="st2" width="54.05" height="11.49"/>
-<rect x="0.81" y="199.19" class="st2" width="500" height="119.59"/>
-<text transform="matrix(1.135 0 0 1 0.811 247.6387)" class="st0 st3 st4">未来のドラム</text>
-<rect x="0.81" y="313.38" class="st2" width="495.95" height="19.59"/>
-<rect y="263.84" class="st2" width="500" height="81.08"/>
-<text transform="matrix(1.0963 0 0 1 -5.769730e-04 279.3473)" class="st0 st5 st6">FUTURETAIKO</text>
+<text transform="matrix(1 0 0 1 381.8908 160.1116)"><tspan x="0" y="0" class="st0 st1 st2">ノア スミス</tspan><tspan x="0" y="18.21" class="st0 st1 st2">パディ コスティガン</tspan><tspan x="0" y="36.43" class="st0 st1 st2">エリック ブロンバーグ</tspan></text>
+<rect x="149.46" y="76.89" class="st3" width="54.05" height="11.49"/>
+<rect x="0.81" y="199.19" class="st3" width="500" height="119.59"/>
+<text transform="matrix(1.135 0 0 1 0.811 247.6387)" class="st0 st1 st4 st5">未来のドラム</text>
+<rect x="0.81" y="313.38" class="st3" width="495.95" height="19.59"/>
+<rect y="263.84" class="st3" width="500" height="81.08"/>
+<text transform="matrix(1.0963 0 0 1 -5.769730e-04 279.3473)" class="st0 st1 st6 st7">FUTURETAIKO</text>
 </svg>
