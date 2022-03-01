@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(36, 36, 36);
+    font-family: 'Power Green';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    line-height: 7.5vh
+}
+
+@font-face {
+    font-family: 'Power Green';
+    src: url('ploverums.github.io/PowerGreen.eot');
+    src: url('ploverums.github.io/PowerGreen.eot?#iefix') format('embedded-opentype'),
+        url('ploverums.github.io/PowerGreen.woff2') format('woff2'),
+        url('ploverums.github.io/PowerGreen.woff') format('woff'),
+        url('ploverums.github.io/PowerGreen.ttf') format('truetype'),
+        url('ploverums.github.io/PowerGreen.svg#PowerGreen') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nikkyou Sans';
+    src: url('ploverums.github.io/NikkyouSans.ttf') format('truetype') url('ploverums.github.io/nikkyousans.woff') format('woff') url('ploverums.github.io/nikkyousans.woff2') format('woff2') font-weight: normal;
+    font-style: normal;
+    color: white;
+}
+
+.square {
+    height: 15vh;
+    width: 15vh;
+    background-color: #916953;
+}
+
+#square2 {
+    height: 15vh;
+    width: 15vh;
+    left: 90%;
+    background-color: #916953;
+    position: relative;
+
+}
+
+#square3 {
+    height: 15vh;
+    width: 15vh;
+    background-color: #916953;
+    position: relative;
+    left: 90%;
+}
+
+
+a {
+    text-decoration: none;
+    color: snow;
+}
+
+a:visited {
+    text-decoration: none;
+    color: snow;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+#name path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
+
+#name {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.grid {
+    position: relative;
+    height: 5vh;
+    width: 5vh;
+    background-color: #916953;
+    z-index: 2;
+    left: 0px;
+    right: 0xpx;
+}
+
+.watainer {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    z-index: 2;
+}
+
+#snake path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
+
+#yarmi path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 0;
+}
