@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: "UD Digi Kyokasho NK-R";
-  src: url("fonts\nkr.woff2")
+  src: url("..fonts\nkr.woff2")
       format("woff2"),
-    url("fonts\nkr.woff")
+    url("..fonts\nkr.woff")
       format("woff");
   font-weight: normal;
   font-style: normal;
