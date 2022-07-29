@@ -16,13 +16,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  background: #f5f2eb;
-  color: #eeeeee;
-}
+
 
 #ploverlogo {
   font-family: "UD Digi Kyokasho NK-R";
@@ -77,38 +71,27 @@ body {
   width: 100vw;
   position: absolute;
   top: 0px;
+  z-index: 999;
 }
 h1 {
   position: relative;
-  font-family: Lato, sans-serif;
-  font-size: 6vw;
+  font-family: "UD Digi Kyokasho NK-R";
+  font-size: 3.5vw;
   font-weight: bold;
-  padding-left: 3vw;
-  padding-top: 20vw;
   overflow: hidden;
-  color: whitesmoke;
+  color: #54514c;
 }
 
 h1 .devtext {
   display: inline-block;
 }
 
-h1 .text {
-  font-family: Lato, sans-serif;
-  font-weight: normal;
-  padding-left: 1.2vw;
-  color: #967bb6;
-}
-
 h2 {
   position: relative;
-  font-family: Lato, sans-serif;
-  font-size: 5vw;
+  font-family: "UD Digi Kyokasho NK-R";
   font-weight: bold;
-  padding-left: 3vw;
-  padding-top: 10vw;
   overflow: hidden;
-  color: whitesmoke;
+  color: #54514c;
 }
 #devwrapper {
     pointer-events: none;
@@ -130,6 +113,7 @@ pointer-events: auto;
   width: 60%;
   height: 7%;
   background-color: #54514c;
+  color: #f5f2eb;
   box-shadow: 0 5px 0 #3a3835;
   border-radius: 15px;
   font-size: 3vw;
@@ -167,6 +151,7 @@ pointer-events: auto;
   margin: auto;
   font-family: "UD Digi Kyokasho NK-R";
   width: 60%;
+  color: #f5f2eb;
   height: 7%;
   background-color: #54514c;
   box-shadow: 0 5px 0 #3a3835;
@@ -198,6 +183,7 @@ pointer-events: auto;
   margin: auto;
   font-family: "UD Digi Kyokasho NK-R";
   width: 60%;
+  color: #f5f2eb;
   height: 7%;
   background-color: #54514c;
   box-shadow: 0 5px 0 #3a3835;
@@ -241,4 +227,42 @@ a:visited {
 }
 a {
   color: inherit;
+}
+
+.transition-fade {
+  opacity: 1;
+  transition: 500ms;
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+  opacity: 0;
+  transform: translateX(0);
+}
+
+.transition-swipe {
+  transition: 500ms;
+  transform: translateY(0);
+}
+
+html.is-animating .transition-swipe {
+  transform: translateY(100px);
+}
+main{
+  font-family: "UD Digi Kyokasho NK-R";
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f2eb;
+  color: #54514c;
+  z-index: -100;
+}
+body{
+  background: #f5f2eb;
 }
