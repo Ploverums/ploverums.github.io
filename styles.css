@@ -1,87 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Source+Code+Pro&display=swap");
+
+@font-face {
+  font-family: "UD Digi Kyokasho NK-R";
+  src: url("https://github.com/Ploverums/ploverums.github.io-v2/blob/main/fonts/nkr.woff2")
+      format("woff2"),
+    url("https://github.com/Ploverums/ploverums.github.io-v2/blob/main/fonts/nkr.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background: #00050a;
-    color: #eeeeee;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f2eb;
+  color: #eeeeee;
 }
 
+#ploverlogo {
+  font-family: "UD Digi Kyokasho NK-R";
+  width: 20%;
+  color: #f5f2eb;
+  font-size: 3vw;
+  text-align: center;
+  margin: auto;
+}
+
+.certs {
+  margin-top: 1vh;
+  margin-left: 1vw;
+  font-family: "UD Digi Kyokasho NK-R";
+  color: #54514c;
+  width: 20%;
+  height: 10%;
+  background-color: #f5f2eb;
+  box-shadow: 0 5px 0 #3a3835;
+  border-radius: 15px;
+  font-size: 2vw;
+  transition: 0.15s;
+  text-align: center;
+}
+
+.socials {
+  margin-right: 1vw;
+  margin-top: 1vh;
+  font-family: "UD Digi Kyokasho NK-R";
+  color: #54514c;
+  width: 20%;
+  height: 10%;
+  background-color: #f5f2eb;
+  box-shadow: 0 5px 0 #3a3835;
+  border-radius: 15px;
+  font-size: 2vw;
+  transition: 0.15s;
+  text-align: center;
+}
+#inter {
+  position: relative;
+  top: -100px;
+  width: 100%;
+  height: 100vh;
+  z-index: -100;
+  top: 0;
+}
+.topnav {
+  display: flex;
+  background-color: #54514c;
+  overflow: hidden;
+  width: 100vw;
+  position: absolute;
+  top: 0px;
+}
 h1 {
-    position: relative;
-    font-family: Lato, sans-serif;
-    font-size: 6vw;
-    font-weight: bold;
-    padding-left: 3vw;
-    padding-top: 20vw;
-    overflow: hidden;
-    color: whitesmoke;
+  position: relative;
+  font-family: Lato, sans-serif;
+  font-size: 6vw;
+  font-weight: bold;
+  padding-left: 3vw;
+  padding-top: 20vw;
+  overflow: hidden;
+  color: whitesmoke;
 }
 
 h1 .devtext {
-    display: inline-block;
+  display: inline-block;
 }
-
 
 h1 .text {
-    font-family: Lato, sans-serif;
-    font-weight: normal;
-    padding-left: 1.2vw;
-    color: #967bb6;
-}
-
-#inter{
-    position: relative;
-    top: -100px;
-    width: 100%;
-    height: 100vh;
-    z-index: -100;
-    top: 0;
-}
-#ss2{
-    position: absolute;
-    padding-top: 100vh;
-    width: 100%;
-    height: 70vh;
-}
-a:link {
-  color: #a6a6a6;
-}
-a:visited {
-  color: #a6a6a6;
-}
-a:hover {
-  color: #a6a6a6;
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  padding-left: 1.2vw;
+  color: #967bb6;
 }
 
 h2 {
-    position: relative;
-    font-family: Lato, sans-serif;
-    font-size: 5vw;
-    font-weight: bold;
-    padding-left: 3vw;
-    padding-top: 10vw;
-    overflow: hidden;
-    color: whitesmoke;
+  position: relative;
+  font-family: Lato, sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+  padding-left: 3vw;
+  padding-top: 10vw;
+  overflow: hidden;
+  color: whitesmoke;
 }
-h4 {
-    position: relative;
-    font-family: Lato, sans-serif;
-    font-weight: bold;
-    padding-left: 3vw;
-    padding-top: 10vw;
-    overflow: hidden;
-    color: whitesmoke;
+#devwrapper {
+    pointer-events: none;
+  display: flex;
+  height: 100vh;
+  width: 33.333%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Antonia_Sautter_Creations.png/120px-Antonia_Sautter_Creations.png);
+  transition-property: background-image;
+  transition-duration: .5s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
-code {
-  background-color: #565656;
-  border: 1px solid #999;
-  display: block;
-  padding: 20px;
+
+.devbutton {
+pointer-events: auto;
+  margin: auto;
+  font-family: "UD Digi Kyokasho NK-R";
+  width: 60%;
+  height: 7%;
+  background-color: #54514c;
+  box-shadow: 0 5px 0 #3a3835;
+  border-radius: 15px;
+  font-size: 3vw;
+  transition: 0.15s;
+  opacity: 100;
+}
+
+#devwrapper:hover {
+    background-image: url(codetext.gif);
+    
+    
+  
+}
+.devbutton:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+#deswrapper {
+    pointer-events: none;
+    display: flex;
+    height: 100vh;
+    width: 33.333%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Antonia_Sautter_Creations.png/120px-Antonia_Sautter_Creations.png);
+    transition-property: background-image;
+    transition-duration: .5s;  
+    background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#deswrapper:hover{
+    background-image: url(model.gif);
+}
+.designbutton {
+    pointer-events: auto;
+  margin: auto;
+  font-family: "UD Digi Kyokasho NK-R";
+  width: 60%;
+  height: 7%;
+  background-color: #54514c;
+  box-shadow: 0 5px 0 #3a3835;
+  border-radius: 15px;
+  font-size: 3vw;
+  transition: 0.15s;
+}
+
+.designbutton:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+#engiewrapper {
+    pointer-events: none;
+    display: flex;
+    height: 100vh;
+    width: 33.333%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Antonia_Sautter_Creations.png/120px-Antonia_Sautter_Creations.png);
+    transition-property: background-image;
+    transition-duration: .5s;  
+    background-size: cover;
+  background-repeat: no-repeat;
+}
+#engiewrapper:hover{
+    background-image: url(engie2.gif);
+}
+.engineeringbutton {
+    pointer-events: auto;
+  margin: auto;
+  font-family: "UD Digi Kyokasho NK-R";
+  width: 60%;
+  height: 7%;
+  background-color: #54514c;
+  box-shadow: 0 5px 0 #3a3835;
+  border-radius: 15px;
+  font-size: 3vw;
+  transition: 0.15s;
+}
+
+.engineeringbutton:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0px;
+  background: #ffffff url(snakev2.gif) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+.certs:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.socials:active {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a {
+  color: inherit;
 }
