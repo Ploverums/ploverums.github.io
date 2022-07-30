@@ -1,3 +1,1 @@
-const swup = new Swup({
-    plugins: [new SwupFadeTheme()]
-});
+const swup = new Swup()
