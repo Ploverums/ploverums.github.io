@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="styles.css" />
     <script src="node_modules\magicmouse.js\dist\magic_mouse.cdn.min.js"></script>
       <script src="osucursor\dist\index.umd.js" type="module"></script>
-      <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>   
+      <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+      <script defer src="node_modules\@swup\fade-theme\dist\SwupFadeTheme.min.js"></script> 
       <script defer src="transams.js"></script>
 
 <!-- or create instance manually to provide custom options -->
@@ -29,7 +30,7 @@
     <title>plover.みんあ</title>
     <div class="topnav">
       <div class="certs"><center>Certifications</center></div>
-      <div id="ploverlogo" data-blobity-tooltip="the bron jame" data-no-blobity><a href="index.html">plover.みんな</a></div>
+      <div id="ploverlogo" data-blobity-tooltip="Visit the Homepage"><a href="index.html" data-no-blobity>plover.みんな</a></div>
       <div class="socials"><center>About Me & Contact</center></div>
     </div>
 
@@ -38,15 +39,15 @@
   <body>
     <main id="swup" class="transition-fade">
     <div id="devwrapper">
-      <div class="devbutton" class="transition-swipe">
-        <a href="/dev.html"><center>Development</center></a>
+      <div class="devbutton" class="transition-swipe" data-blobity-tooltip="Visit My Development Portfolio">
+        <a href="/dev.html" data-no-blobity><center>Development</center></a>
       </div>
     </div>
     <div id="deswrapper">
-      <div class="designbutton" class="transition-swipe"><a href="/design.html"><center>Design</center></a></div>
+      <div class="designbutton" class="transition-swipe" data-blobity-tooltip="Visit My Design Portfolio"><a href="/design.html" data-no-blobity><center>Design</center></a></div>
     </div>
     <div id="engiewrapper">
-      <div class="engineeringbutton" class="transition-swipe"><a href="/engineering.html"><center>Engineering</center></a></div>
+      <div class="engineeringbutton" class="transition-swipe" data-blobity-tooltip="Visit My Engineering Portfolio"><a href="/engineering.html" data-no-blobity><center>Engineering</center></a></div>
     </div>
   </main>
   <script src="https://cdn.blobity.dev/by.js"></script>
@@ -54,19 +55,20 @@
     const blobity = new Blobity({
         licenseKey: 'E19A37BB-457E4FB7-A5DDB488-C286301C'
     });
-    blobity.updateOptions({ magnetic: false });
+    blobity.updateOptions({ magnetic: true });
     blobity.updateOptions({ size: 50 });
-    blobity.updateOptions({ radius: 10});
+    blobity.updateOptions({ radius: 20});
     blobity.updateOptions({ dotColor: '#62555F' });
     blobity.updateOptions({ color: '#B1A2B7' });
     blobity.updateOptions({ zIndex: 150 });
     blobity.updateOptions({ mode: 'bouncy' });
     blobity.updateOptions({ font: 'UD Digi Kyokasho NK-R'});
-    blobity.updateOptions({opacity: .25});
+    blobity.updateOptions({opacity: 1});
     blobity.updateOptions({focusableElementsOffsetX: 5});
     blobity.updateOptions({focusableElementsOffsetY: 5});
-    blobity.updateOptions({tooltipPadding: 5});
-    blobity.updateOptions({focusableElements: '[data-blobity], a:not([data-no-blobity]), button:not([data-no-blobity]), [data-blobity-tooltip]'});
+    blobity.updateOptions({tooltipPadding: 10});
+    blobity.updateOptions({fontSize: 30});
+
 </script>
 
   </body>

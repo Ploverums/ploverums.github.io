@@ -231,23 +231,24 @@ a:visited {
 }
 a {
   color: inherit;
+  z-index: 500;
 }
 
 .transition-fade {
   opacity: 1;
   transition: 500ms;
-  transform: translateX(0);
+  transform: translateY(0);
   transform-origin: left;
 }
 
 html.is-animating .transition-fade {
   opacity: 1;
-  transform: translateX(100%);
+  transform: translateY(50%);
 }
 
 html.is-leaving .transition-fade {
   opacity: 0;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 .transition-swipe {
@@ -269,4 +270,28 @@ main{
 }
 body{
   background: #f5f2eb;
+}
+.backbutton{
+  height:75px;
+  width: 100px;
+  background-color: #54514c;
+  border-radius: 150px 150px 0 0;
+        transform: translateX(-20px) rotate(90deg);
+        position: flex;
+}
+.arrow{
+  border: solid #f5f2eb;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+button{
+  padding: 0;
+border: none;
+background: none;
 }

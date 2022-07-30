@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@swup/fade-theme": "^1.0.5",
     "blobity": "^0.2.1",
     "magicmouse.js": "^1.2.1",
     "swup": "^2.0.16"

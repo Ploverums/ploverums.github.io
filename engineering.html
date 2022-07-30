@@ -35,26 +35,32 @@
   </head>
   <body>
     <main id="swup" class="transition-fade">
+      <button class="backbutton" onclick="history.back()" data-no-blobity class="transition-swipe" data-blobity-tooltip="Go Back" data-blobity-magnetic="false">
+        <div class="arrow"></div>
+      </button>
     <center><h1>Page is currently under construction since 7/29/22</h1></center>
     </main>
     <script src="https://cdn.blobity.dev/by.js"></script>
     <script>
-        const blobity = new Blobity({
-            licenseKey: 'E19A37BB-457E4FB7-A5DDB488-C286301C'
-        });
-        blobity.updateOptions({ magnetic: false });
-        blobity.updateOptions({ size: 50 });
-        blobity.updateOptions({ radius: 10});
-        blobity.updateOptions({ dotColor: '#62555F' });
-        blobity.updateOptions({ color: '#B1A2B7' });
-        blobity.updateOptions({ zIndex: 150 });
-        blobity.updateOptions({ mode: 'bouncy' });
-        blobity.updateOptions({ font: 'UD Digi Kyokasho NK-R'});
-        blobity.updateOptions({opacity: .25});
-        blobity.updateOptions({focusableElementsOffsetX: 5});
-        blobity.updateOptions({focusableElementsOffsetY: 5});
-        blobity.updateOptions({tooltipPadding: 5});
-        blobity.updateOptions({focusableElements: '[data-blobity], a:not([data-no-blobity]), button:not([data-no-blobity]), [data-blobity-tooltip]'});
-    </script>
+      const blobity = new Blobity({
+          licenseKey: 'E19A37BB-457E4FB7-A5DDB488-C286301C'
+      });
+      blobity.reset();
+      blobity.updateOptions({ magnetic: true });
+      blobity.updateOptions({ size: 50 });
+      blobity.updateOptions({ radius: 20});
+      blobity.updateOptions({ dotColor: '#62555F' });
+      blobity.updateOptions({ color: '#B1A2B7' });
+      blobity.updateOptions({ zIndex: 150 });
+      blobity.updateOptions({ mode: 'bouncy' });
+      blobity.updateOptions({ font: 'UD Digi Kyokasho NK-R'});
+      blobity.updateOptions({opacity: 1});
+      blobity.updateOptions({focusableElementsOffsetX: 5});
+      blobity.updateOptions({focusableElementsOffsetY: 5});
+      blobity.updateOptions({tooltipPadding: 10});
+      blobity.updateOptions({fontSize: 30});
+      blobity.updateOptions({fontColor: '#54514C'});
+  
+  </script>
     
   </body>
