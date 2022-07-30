@@ -71,7 +71,7 @@
   width: 100vw;
   position: absolute;
   top: 0px;
-  z-index: 999;
+  z-index: 100;
 }
 h1 {
   position: relative;
@@ -103,6 +103,7 @@ h2 {
   transition-duration: .5s;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 300;
   
 }
 
@@ -119,6 +120,7 @@ pointer-events: auto;
   font-size: 3vw;
   transition: 0.15s;
   opacity: 100;
+  z-index: 300;
 }
 
 #devwrapper:hover {
@@ -158,6 +160,7 @@ pointer-events: auto;
   border-radius: 15px;
   font-size: 3vw;
   transition: 0.15s;
+  z-index: 200;
 }
 
 .designbutton:active {
@@ -190,6 +193,7 @@ pointer-events: auto;
   border-radius: 15px;
   font-size: 3vw;
   transition: 0.15s;
+  z-index: 200;
 }
 
 .engineeringbutton:active {
@@ -207,7 +211,7 @@ pointer-events: auto;
   background: #ffffff url(snakev2.gif) no-repeat center center;
   width: 100%;
   height: 100%;
-  z-index: 999;
+  z-index: 100;
 }
 .certs:active {
   box-shadow: none;
